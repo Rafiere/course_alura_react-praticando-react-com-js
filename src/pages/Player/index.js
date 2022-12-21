@@ -11,7 +11,7 @@ import PaginaErro from "pages/PaginaErro";
 const Player = () => {
   const parametros = useParams();
 
-  const video = videos.find((video) => {
+  const video = videos.videos.find((video) => {
     return video.id === Number(parametros.id);
   });
 
