@@ -1,1 +1,6 @@
 /* Com um arquivo "module", podemos repetir nomes de classes sem que aconteça conflito entre as classes de componentes. */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
